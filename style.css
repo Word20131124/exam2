@@ -1,0 +1,147 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.black {
+  background: #000;
+  color: white;
+  height: 25px;
+  width: 126px;
+  border-radius: 6px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.wetr {
+  margin-right: 1000px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.cv {
+  height: 570px;
+  width: 270px;
+}
+.AS {
+  background: #1aab7b;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border-radius: 6px;
+}
+.gh {
+  font-size: 45px;
+  font-weight: 700;
+}
+.xz {
+  display: flex;
+  justify-content: space-around;
+}
+.AS:hover {
+  background: white;
+  color: #1aab7b;
+  border: #1aab7b;
+}
+
+.ss {
+  background: #1aab7b;
+}
+.card {
+  width: 330px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 65px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.sp {
+  background: #e1e7ed;
+  color: black;
+}
+.c {
+  text-align: center;
+}
+.d {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.y {
+  margin-top: 200px;
+  text-align: center;
+}
+.m {
+  background-image: url(img/MArs.png);
+  height: 515px;
+  width: 1216px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+.l {
+  background: #000000ba;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+.lorem {
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+.o {
+  width: 300px;
+  height: 300px;
+}
+.bat{
+  background: #1AAB7B;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 190px;
+  margin-top: 30px;
+}
+.text{
+  background: none; 
+  width: 463px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.footer{
+  background: #000;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 96px 112px;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
